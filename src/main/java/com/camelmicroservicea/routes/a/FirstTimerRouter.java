@@ -16,7 +16,7 @@ import java.time.LocalDateTime;
  * transform() : used to transform or construct our own data object
  * to() : used to direct the data object to another route
  */
-//@Component
+@Component
 public class FirstTimerRouter extends RouteBuilder {
 
     @Override

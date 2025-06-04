@@ -11,6 +11,7 @@ public class ProcessorBean implements Processor {
     private final Logger logger = LoggerFactory.getLogger(ProcessorBean.class);
 
     public void process(Exchange exchange) {
+        logger.info("Exchange from processor : {}", exchange);
         logger.info("Message from processor : {}", exchange.getMessage().getBody());
     }
 }

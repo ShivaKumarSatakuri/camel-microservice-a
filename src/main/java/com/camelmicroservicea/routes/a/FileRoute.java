@@ -9,6 +9,7 @@ public class FileRoute extends RouteBuilder {
     @Override
     public void configure() {
         from("file:files/input")
+                .log("${body}")
                 .to("file:files/output");
     }
 }

@@ -1,2 +1,6 @@
 server:
   port: 8080
+
+spring:
+  activemq:
+    broker-url=tcc://localhost:61616

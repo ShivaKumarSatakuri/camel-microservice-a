@@ -1,3 +1,4 @@
+/*
 package com.camelmicroservicea.configs;
 
 import jakarta.jms.ConnectionFactory;
@@ -19,4 +20,5 @@ public class JmsConfig {
         factory.setTrustAllPackages(true);
         return factory;
     }
-}
+}   // commented this file due to missing pom dependencies in laptop - dummy commit
+*/
